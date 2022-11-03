@@ -14,18 +14,19 @@
 // Dialog resources
 //
 LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
-IDD_ABOUTDLG DIALOGEX 0, 0, 223, 130
+IDD_ABOUTDLG DIALOGEX 0, 0, 223, 150
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_BORDER | WS_SYSMENU
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 {
-    PUSHBUTTON      "Close", IDOK, 86, 109, 50, 14
-    GROUPBOX        "", IDC_VERSION, 10, 9, 201, 93, BS_CENTER
+    PUSHBUTTON      "Close", IDOK, 86, 129, 50, 14
+    GROUPBOX        "", IDC_VERSION, 10, 9, 195, 113, BS_CENTER
     LTEXT           "Author : Justin Dailey <dail8859@yahoo.com>", IDC_STATIC, 30, 26, 180, 8
-    LTEXT           "The DoxyIt code is hosted on", IDC_STATIC, 30, 43, 180, 8
-    LTEXT           "GitHub", IDC_GITHUB, 127, 43, 22, 8, SS_LEFT | SS_NOTIFY, WS_EX_LEFT
-    LTEXT           "For detailed usage, view the", IDC_STATIC, 30, 62, 110, 8, SS_LEFT
-    LTEXT           "readme", IDC_README, 124, 62, 24, 8, SS_LEFT | SS_NOTIFY, WS_EX_LEFT
-     LTEXT           "This code is licensed under GPLv2", IDC_STATIC, 30, 80, 111, 8, SS_LEFT
+    LTEXT           "Forked By : syvilNet <me@syvil.net>", IDC_STATIC, 30, 43, 180, 8
+    LTEXT           "The DoxyIt code is hosted on", IDC_STATIC, 30, 62, 180, 8
+    LTEXT           "GitHub", IDC_GITHUB, 127, 62, 22, 8, SS_LEFT | SS_NOTIFY, WS_EX_LEFT
+    LTEXT           "For detailed usage, view the", IDC_STATIC, 30, 80, 110, 8, SS_LEFT
+    LTEXT           "readme", IDC_README, 124, 80, 24, 8, SS_LEFT | SS_NOTIFY, WS_EX_LEFT
+    LTEXT           "This code is licensed under GPLv2", IDC_STATIC, 30, 98, 111, 8, SS_LEFT
 }
 
 
